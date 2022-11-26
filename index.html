@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Draggable Elements Page</title>
+</head>
+
+<body>
+    <header>
+      <div class="container">
+        <div draggable="true" class="box">
+        <h1 class="title">Draggable Elements</h1>
+        </div>
+        <div draggable="true" class="box">
+        <img class="logo" src="/images/Greenhood logo[1362].png" alt="Personal logo" /><!--My own personal logo-->
+    </div>
+  </div>
+    </header>
+    <div draggable="true" class="box">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Empty</a>
+            <a href="#">Empty</a>
+            <a href="#">Empty</a>
+            <a href="#">Empty</a>
+            <div class="animation start-home"></div>
+        </nav>
+    </div>
+    <main>
+        <div class="container">
+            <div draggable="true" class="box">A<img src="https://images.pexels.com/photos/1853542/pexels-photo-1853542.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=""></div>
+            <div draggable="true" class="box">B
+                <h1>Registration</h1>
+                <form action="/">
+                  <hr>
+                  <div class="account-type">
+                    <input type="radio" value="none" id="radioOne" name="account" checked/>
+                    <label for="radioOne" class="radio">Personal</label>
+                    <input type="radio" value="none" id="radioTwo" name="account" />
+                    <label for="radioTwo" class="radio">Company</label>
+                  </div>
+                  <hr>
+                  <label id="icon" for="name"><i class="fas fa-envelope"></i></label>
+                  <input type="text" name="name" id="name" placeholder="Email" required/>
+                  <label id="icon" for="name"><i class="fas fa-user"></i></label>
+                  <input type="text" name="name" id="name" placeholder="Name" required/>
+                  <label id="icon" for="name"><i class="fas fa-unlock-alt"></i></label>
+                  <input type="password" name="name" id="name" placeholder="Password" required/>
+                  <hr>
+                  <div class="gender">
+                    <input type="radio" value="none" id="male" name="gender" checked/>
+                    <label for="male" class="radio">Male</label>
+                    <input type="radio" value="none" id="female" name="gender" />
+                    <label for="female" class="radio">Female</label>
+                  </div>
+                  <hr>
+                  <div class="btn-block">
+                    <p>clicking Register</p>
+                    <button type="submit" href="/">Submit</button>
+                  </div>
+                </form>
+            </div>
+            <div draggable="true" class="box">C.
+                <label>Paragraph</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div draggable="true" class="box" id="d">D</div>
+            <div draggable="true" class="box" id="e">E</div>
+            <div draggable="true" class="box" id="f">F</div>
+            <div draggable="true" class="box" id="g">G</div>
+            <div draggable="true" class="box" id="h">H</div>
+            <div draggable="true" class="box" id="i">I</div>
+            <div draggable="true" class="box" id="j">J <img src="https://images.pexels.com/photos/4258936/pexels-photo-4258936.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=""></div>
+          </div>
+    </main>
+</body>
+
+</html>
